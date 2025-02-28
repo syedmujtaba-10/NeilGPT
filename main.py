@@ -14,7 +14,6 @@ from pdf2 import origins_engine
 from fastapi.middleware.cors import CORSMiddleware
 
 load_dotenv()
-print(f"OpenAI API Key: {os.getenv('OPENAI_API_KEY')}")
 # Load population data
 population_path = os.path.join("data", "population.csv")
 population_df = pd.read_csv(population_path)
@@ -83,6 +82,5 @@ async def health_check():
     """Health check endpoint."""
     return {"status": "ok", "message": "Server is running"}
 
-#uvicorn main:app --host 192.168.0.147 --port 8000
+#uvicorn main:app --host 0.0.0.0 --port $PORT
 #Use the above line to run the code
-#$env:OPENAI_API_KEY=""
