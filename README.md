@@ -25,7 +25,7 @@ https://github.com/user-attachments/assets/b6ecc74d-3cc9-4ead-9948-f2125a2e69fd
 
 ## Tech Stack
 
-### Frontend
+### Frontend (https://github.com/syedmujtaba-10/frontend_NeilGPT)
 - **React:** For building dynamic user interfaces.
 - **Tailwind CSS:** (or similar) for styling and responsive design.
 - **Lucide-React:** Icon library for intuitive UI icons.
